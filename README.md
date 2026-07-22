@@ -1,4 +1,4 @@
-# Add Conversation Summarization to Your AI Chatbot
+# Conversation Summarization to AI Chatbot
 
 A Streamlit chatbot that automatically summarizes long conversations 
 every 3 user messages using OpenAI's gpt-4o-mini, reducing token usage 
