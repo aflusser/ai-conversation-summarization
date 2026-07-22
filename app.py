@@ -215,9 +215,8 @@ if prompt := st.chat_input("Type your message here..."):
         messages_to_summarize = st.session_state.messages[:-1]  # Everything except the latest
         current_assistant_message = st.session_state.messages[-1]     # Just the latest message
 
-        # BEGIN SOLUTION - messages to summarize
+        # Messages to summarize
         summary_text, summarization_tokens = summarize_conversation(messages_to_summarize) 
-        # END SOLUTION - messages to summarize
 
         # Store the summary and token usage
         st.session_state["summary"] = summary_text
